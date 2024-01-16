@@ -12,6 +12,23 @@
     padding: 30px 0;
 }
 
+.header__line > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__lang {
+    padding: 15px;
+    background-color: #272727;
+    border-radius: 20px;
+    font-family: "Nunito";
+    font-weight: 500;
+    color: #4A9500;
+    font-size: 16px;
+    transition: all .3s ease-in;
+}
+
 .logo {
     display: flex;
     align-items: center;
