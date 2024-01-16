@@ -1,0 +1,22 @@
+{
+    "headerBtn": {
+        "ru" : "Нажми здесь!",
+        "ua" : "Тикай тут!",
+        "en" : "Press!"
+    },
+    "projectTab": {
+        "ru" : "Наши проекты",
+        "ua" : "Наші проекти",
+        "en" : "Our project"
+    },
+    "moneyTab": {
+        "ru" : "Токен",
+        "ua" : "Токен",
+        "en" : "Token"
+    },
+    "aboutTab": {
+        "ru" : "О нас",
+        "ua" : "Про нас",
+        "en" : "About us"
+    }
+}
