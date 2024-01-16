@@ -107,7 +107,7 @@
     transition: .3s;
 }
 
-.main__tabs-tab:hover {
+.main__tabs-tab:hover, .main__tabs-tab.active {
     color: #272727;
     background-color: #4A9500;
     box-shadow: 0px 0px 20px 0px #4A9500;
