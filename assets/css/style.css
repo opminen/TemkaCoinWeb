@@ -63,7 +63,8 @@
 
 .main {
     background-image: url(../img/bg.svg);
-    height: 1000vh;
+    background-position: center;
+    height: 200vh;
 }
 
 .main > .container {
