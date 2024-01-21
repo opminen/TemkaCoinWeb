@@ -82,7 +82,6 @@
 .main {
     background-image: url(../img/bg.svg);
     background-position: center;
-    height: 200vh;
 }
 
 .main > .container {
@@ -111,6 +110,44 @@
     color: #272727;
     background-color: #4A9500;
     box-shadow: 0px 0px 20px 0px #4A9500;
+}
+
+.main__content {
+    margin-top: 50px;
+    animation: contentAnimation 1s ease;
+}
+
+.main__content-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main__content-card {
+    background-color: #707070;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid #272727;
+    font-family: "Nunito";
+    transition: all .3s;
+    cursor: pointer;
+    color: rgb(54, 54, 54);
+}
+
+.main__content-card:hover {
+    background-color: #999999;
+}
+
+.main__content-card-about {
+    font-size: 12px;
+}
+
+@keyframes contentAnimation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 @keyframes logo_animation {
